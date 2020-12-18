@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "responsiveApp"
+  "defaultProject": "responsiveApp",
+  "cli": {
+    "analytics": false
+  }
 }

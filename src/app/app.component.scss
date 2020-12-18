@@ -1,0 +1,74 @@
+#website {
+  background: yellow;
+  height: 100vh;
+  text-align: center;
+}
+
+#cabecera {
+  background: green;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+#pie-pagina {
+  background: black;
+  color: white;
+}
+
+#menu {
+  background: wheat;
+  color: white;
+}
+
+#lateral {
+  background: green;
+}
+
+#contenido {
+  background: yellow;
+  padding: 10px;
+  text-align: center;
+}
+
+.cuadro {
+  text-align: center;
+  height: 100px;
+}
+
+.verde {
+  background: green;
+  color: white;
+  @extend .cuadro;
+}
+
+.amarillo {
+  background: chocolate;
+  color: white;
+  @extend .cuadro;
+}
+
+.azul {
+  background: blue;
+  color: white;
+  @extend .cuadro;
+}
+
+.rojo {
+  background: red;
+  color: white;
+  @extend .cuadro;
+}
+
+.rosa {
+  background: violet;
+  color: white;
+  @extend .cuadro;
+}
+
+.card1 {
+  background: red;
+  color: white;
+}
